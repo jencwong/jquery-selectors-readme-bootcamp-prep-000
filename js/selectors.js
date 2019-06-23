@@ -8,13 +8,13 @@ function lastImageSelector() {
 }
 
 function ninjaBabySelector() {
-  $('#baby-ninja').click(ninjaBabySelector);
+  return $('#baby-ninja');
 }
 
 function divSelector() {
-  $('.pics').click(divSelector);
+  return $('.pics');
 }
 
 function firstListItem() {
-  $('#pic-list:first-child').click(firstListItem);
+  return $('#pic-list:first-child');
 }
